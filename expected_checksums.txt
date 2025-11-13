@@ -1,0 +1,1 @@
+# Popunit će se automatski pri prvom pokretanju run_local.ps1 (bootstrap iz checksums.txt).

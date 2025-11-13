@@ -1,0 +1,7 @@
+{
+  "version": "Gertner/SlavkoKernel-v3+patch1",
+  "commit": "PATCH_2025_11_11",
+  "milestone": "Replay fidelity upgrade",
+  "flags": ["scenario-awareness", "stop-token-extension"],
+  "date": "2025-11-11"
+}
