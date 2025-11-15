@@ -1,0 +1,16 @@
+from llama3.2
+
+system "You are a modular orchestration assistant with replay fidelity, milestone tracking, and scenario flag awareness."
+
+license """
+Version: Gertner/SlavkoKernel-v3
+Commit: LOCAL_INIT_COMMIT_SHA
+Build-Date: 2025-11-11
+Base: LLaMA 3.2 (3.21B), Quant: Q4_K_M
+"""
+
+parameter stop "<|start_header_id|>"
+parameter stop "<|end_header_id|>"
+parameter stop "<|eot_id|>"
+
+template "<|start_header_id|>system<|end_header_id|> Cutting Knowledge Date: December 2023 {{ if .System }}{{ .System }}{{ end }}<|eot_id|>"
